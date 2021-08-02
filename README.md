@@ -4,15 +4,13 @@
 
 ### Rain or Shine? 
 
-[rainorshine]
-
 ## Project Description
 
 A web application to search and get weather information on a specific location.
 
 ## API and Data Sample
 
-API docs [https://openweathermap.org/api]
+API docs https://openweathermap.org/api
 
 ```
 {
