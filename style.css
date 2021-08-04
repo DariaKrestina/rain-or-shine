@@ -9,6 +9,10 @@ header h1 {
   font-size: 60px;
 }
 
+.main-temp {
+  font-size: 50px;
+}
+
 header {
   background-color: #06d6a0;
   color: #edf6f9;
@@ -20,21 +24,26 @@ footer {
   background-color: #118ab2;
   color: #fff9eb;
   /* box-sizing: border-box; */
-  padding: 10px;
+  padding: 5px;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Oswald", sans-serif;
 }
 
 figure {
   color: #073b4c;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Oswald", sans-serif;
-  padding-left: 20px;
-  /* align-self: flex-end; */
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  bottom: 15%;
+  right: 65%;
+  width: 30%;
 }
 
 a {
