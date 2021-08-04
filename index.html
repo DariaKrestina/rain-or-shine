@@ -6,35 +6,43 @@
     <title>How is it outside? Rain or Shine?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="app.js"></script>
   </head>
   <body>
     <header>
       <h1>Rain or Shine?</h1>
-      <aside>Favorites</aside>
+      <h4>Favorites</h4>
     </header>
     <main>
       <section class="search-section">
-        <input type="text" id="blank" placeholder="Enter city name(e.g. New York)" autofocus>
-        <button id="search">Search</button><!-- Find an icon for search!-->
+        <input type="text" id="blank" placeholder="Enter location (e.g. Miami)" autofocus>
+        <button id="search"><i class="fa fa-search"></i></button>
       </section>
-      <section class="weather-info"></section>
-      <p>
-        <a href="#" id="imperial">&#176 F</a>/
+      <p class='temp-units'>
+        <a href="#" id="imperial">&#176 F</a> /
         <a href="#" id="metric">&#176 C</a>
       </p>
-      <q>There is no such thing as a bad weather.</q>
+      <section class="weather-info"></section>
+      <figure>
+        <q>There is no such thing as a bad weather.</q>
+        <figcaption>&mdash; Alfred Wainwright</figcaption>
+      </figure>
     </main>
     <footer>
+      <div class="icons">
       <a href="https://www.linkedin.com/in/daria-krestina/" target="_blank">
-        <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="Linkein logo"
-          width=2% height=2%>
+        <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="Linkein logo" width="10%" height="auto">
       </a>
       <a href="https://github.com/DariaKrestina" target="_blank">
         <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png" alt="Github logo"
-          width=2% height=2%>
+          width=10% height="auto">
       </a>
+      </div>
       <p class="info">&copy; Daria Krestina 2021</p>
     </footer>
   </body>

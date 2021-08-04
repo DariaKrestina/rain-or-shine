@@ -3,29 +3,108 @@
   padding: 0;
 }
 
+header h1 {
+  font-family: "Caveat", cursive;
+  color: #ef476f;
+  font-size: 60px;
+}
+
 header {
-  background-color: #83c5be;
+  background-color: #06d6a0;
   color: #edf6f9;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 footer {
-  background-color: #006d77;
-  color: #edf6f9;
+  background-color: #118ab2;
+  color: #fff9eb;
+  /* box-sizing: border-box; */
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+figure {
+  color: #073b4c;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 20px;
+  /* align-self: flex-end; */
+}
+
+a {
+  color: #fff9eb;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 main {
-  /* background: url(https://i.imgur.com/tQP7D1a.jpg) no-repeat; */
-  /* background-size: cover; */
-  height: 722px;
+  background: linear-gradient(rgba(6, 214, 160, 0.9), rgba(17, 138, 178, 0.6)),
+    url(https://i.imgur.com/tQP7D1a.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-/* body {
-  display: flexbox;
-  flex-direction: column;
+button {
+  background-color: #ef476f;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  width: 15%;
 }
 
-footer {
-  display: flexbox;
-  flex-direction: column;
-  align-self: flex-end;
-} */
+input {
+  border: none;
+  outline: none;
+  width: 70%;
+}
+
+input:focus {
+  border: none;
+}
+
+i {
+  font-size: 48px;
+  color: #83c5be;
+}
+
+button,
+input {
+  display: inline-block;
+  margin-top: 60px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.icons {
+  display: inline-block;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.temp-units {
+  color: #fff9eb;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  padding: 0px 20px 0px;
+  margin-right: 65px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
