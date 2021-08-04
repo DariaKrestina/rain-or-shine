@@ -2,7 +2,7 @@
 
 ## Project Name
 
-### Rain or Shine? 
+### Rain or Shine?
 
 ## Project Description
 
@@ -64,15 +64,14 @@ API docs https://openweathermap.org/api
 
 ### MVP/PostMVP
 
-#### MVP 
+#### MVP
 
-- Use OpenWeather api 
-- Allow user to choose favorites 
+- Use OpenWeather api
 - Style the webpage using Flexbox
 - Use a media query for desktop(mobile-first)
 - Render weather information on a specific location on the page
 
-#### PostMVP  
+#### PostMVP
 
 - Use local storage to save user favorites
 - Render an icon for a specific weather condition
@@ -80,13 +79,13 @@ API docs https://openweathermap.org/api
 
 ## Project Schedule
 
-|  Day | Deliverable | Status
-|---|---| ---|
-|August 2| Wireframes / Priority Matrix / Timeframes / Project Approval / Core Application Structure (HTML, CSS, JS) | Incomplete
-|August 3| Pseudocode / Actual Code / MVP | Incomplete
-|August 4| Initial Clickable Model | Incomplete
-|August 5| CSS Styling / PostMVP | Incomplete
-|August 6| Presentations | Incomplete
+| Day      | Deliverable                                                                                               | Status     |
+| -------- | --------------------------------------------------------------------------------------------------------- | ---------- |
+| August 2 | Wireframes / Priority Matrix / Timeframes / Project Approval / Core Application Structure (HTML, CSS, JS) | Incomplete |
+| August 3 | Pseudocode / Actual Code / MVP                                                                            | Incomplete |
+| August 4 | Initial Clickable Model                                                                                   | Incomplete |
+| August 5 | CSS Styling / PostMVP                                                                                     | Incomplete |
+| August 6 | Presentations                                                                                             | Incomplete |
 
 ## Priority Matrix
 
@@ -94,25 +93,23 @@ API docs https://openweathermap.org/api
 
 ## Timeframes
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Search for API | H | 3hrs | 4hrs | 4hrs |
-| Wireframes / Priority Matrix / Timeframes | H | 5hrs | 5hrs | 5hrs |
-| Pseudocode | H | .5hrs |  |  |
-| Html structure | H | .5hrs|  |  |
-| CSS structure | H | .5hrs|  |  |
-| Working with API | H | 3hrs |  |  |
-| Clickable search button | H | 2hrs|  |  |
-| Creating and appending elements to the DOM | H | 1hrs|  |  |
-| Weather API fetchData function | H | 3hrs|  |  |
-| Eventlisteners/RemoveChild()| H | 3hrs|  |  |
-| Displaying the current date and time of location | H | 3hrs |  |  |
-| CSS styling mobile-first | H | 7hrs|  |  |
-| CSS Flexbox styling | H | 3hrs|  |  |
-| Media Query for Desktop  | H | 3hrs|  |  |
-| Media Query for Tablet  | H | 2hrs|  |  |
-| MVP check/fixes/tweaks| H | 3hrs|  |  |
-| PostMVP checks/fixes/tweaks| H | 3hrs|  |  |
-| Total | H | 42.5hrs| 9hrs | 9hrs |
-
-
+| Component                                        | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------------------------------ | :------: | :------------: | :-----------: | :---------: |
+| Search for API                                   |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Wireframes / Priority Matrix / Timeframes        |    H     |      5hrs      |     5hrs      |    5hrs     |
+| Pseudocode                                       |    H     |     .5hrs      |               |             |
+| Html structure                                   |    H     |     .5hrs      |               |             |
+| CSS structure                                    |    H     |     .5hrs      |               |             |
+| Working with API                                 |    H     |      3hrs      |               |             |
+| Clickable search button                          |    H     |      2hrs      |               |             |
+| Creating and appending elements to the DOM       |    H     |      1hrs      |               |             |
+| Weather API fetchData function                   |    H     |      3hrs      |               |             |
+| Eventlisteners/RemoveChild()                     |    H     |      3hrs      |               |             |
+| Displaying the current date and time of location |    H     |      3hrs      |               |             |
+| CSS styling mobile-first                         |    H     |      7hrs      |               |             |
+| CSS Flexbox styling                              |    H     |      3hrs      |               |             |
+| Media Query for Desktop                          |    H     |      3hrs      |               |             |
+| Media Query for Tablet                           |    H     |      2hrs      |               |             |
+| MVP check/fixes/tweaks                           |    H     |      3hrs      |               |             |
+| PostMVP checks/fixes/tweaks                      |    H     |      3hrs      |               |             |
+| Total                                            |    H     |    42.5hrs     |     9hrs      |    9hrs     |
