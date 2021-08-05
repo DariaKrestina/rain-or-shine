@@ -31,7 +31,7 @@ async function fetchData(units) {
   } catch (error) {
     console.error(error);
     let errorText = `
-    <p class="errorText">Sorry, we couldn't find anything. Make sure your location name is spelled correctly or try another one (e.g. Toronto).</p>
+    <p class="error-text">Sorry, we couldn't find anything. Make sure your location name is spelled correctly or try another one (e.g. Toronto).</p>
     `;
     weatherInfo.insertAdjacentHTML("beforeend", errorText);
   }
@@ -43,7 +43,7 @@ function showWeatherData(data, metadata) {
   let weatherElements = `
   <img src="http://openweathermap.org/img/wn/${weatherIcon}@2x.png"/>
   <h1>${data.name} | ${data.sys.country}</h1>
-  <h2>${data.weather[0].main}</h2>
+  <h3>${data.weather[0].main}</h3>
   <p class="main-temp">${data.main.temp}&#176 ${metadata.degree}</p>
   <p class="other-temp">H: ${data.main.temp_max}&#176 ${metadata.degree} &#160 L: ${data.main.temp_min}&#176 ${metadata.degree}</p>
   <h2>FEELS LIKE ${data.main.feels_like}&#176 ${metadata.degree}</h2>
@@ -56,6 +56,7 @@ function showWeatherData(data, metadata) {
 searchButton.addEventListener("click", (e) => {
   e.preventDefault();
   fetchData("imperial");
+  document.querySelector("figure").style.display = "none";
 });
 
 // Display weather data in Fahrenheit
