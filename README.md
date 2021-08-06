@@ -70,22 +70,24 @@ API docs https://openweathermap.org/api
 - Style the webpage using Flexbox
 - Use a media query for desktop(mobile-first)
 - Render weather information on a specific location on the page
+- Use eventHandlers to display weather info in Fahrenheit
 
 #### PostMVP
 
 - Use local storage to save user favorites
 - Render an icon for a specific weather condition
 - Use an additional media query for tablet
+- Use eventHandlers to display weather info in Celsius
 
 ## Project Schedule
 
-| Day      | Deliverable                                                                                               | Status     |
-| -------- | --------------------------------------------------------------------------------------------------------- | ---------- |
-| August 2 | Wireframes / Priority Matrix / Timeframes / Project Approval / Core Application Structure (HTML, CSS, JS) | Incomplete |
-| August 3 | Pseudocode / Actual Code / MVP                                                                            | Incomplete |
-| August 4 | Initial Clickable Model                                                                                   | Incomplete |
-| August 5 | CSS Styling / PostMVP                                                                                     | Incomplete |
-| August 6 | Presentations                                                                                             | Incomplete |
+| Day      | Deliverable                                                               | Status     |
+| -------- | ------------------------------------------------------------------------- | ---------- |
+| August 2 | Wireframes / Priority Matrix / Core Application Structure (HTML, CSS, JS) |  Complete  |
+| August 3 | Pseudocode / Actual Code / MVP                                            |  Complete  |
+| August 4 | Initial Clickable Model                                                   |  Complete  |
+| August 5 | CSS Styling / PostMVP                                                     |  Complete  |
+| August 6 | Presentations                                                             |  Complete  |
 
 ## Priority Matrix
 
@@ -97,9 +99,9 @@ API docs https://openweathermap.org/api
 | ------------------------------------------------ | :------: | :------------: | :-----------: | :---------: |
 | Search for API                                   |    H     |      3hrs      |     4hrs      |    4hrs     |
 | Wireframes / Priority Matrix / Timeframes        |    H     |      5hrs      |     5hrs      |    5hrs     |
-| Pseudocode                                       |    H     |     .5hrs      |               |             |
-| Html structure                                   |    H     |     .5hrs      |               |             |
-| CSS structure                                    |    H     |     .5hrs      |               |             |
+| Pseudocode                                       |    H     |    0.5hrs      |    0.5hrs     |   0.5hrs    |
+| Html structure                                   |    H     |    0.5hrs      |    0.5hrs     |   0.5hrs    |
+| CSS structure                                    |    H     |    0.5hrs      |    0.5hrs     |   0.5hrs    |
 | Working with API                                 |    H     |      3hrs      |               |             |
 | Clickable search button                          |    H     |      2hrs      |               |             |
 | Creating and appending elements to the DOM       |    H     |      1hrs      |               |             |
