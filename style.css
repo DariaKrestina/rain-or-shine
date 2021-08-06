@@ -1,16 +1,28 @@
+/* ==========================================================================
+   Global Overrides
+========================================================================== */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* ==========================================================================
+   Global Styles
+========================================================================== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+}
+
+/* ==========================================================================
+   Header Styles
+========================================================================== */
 header h1 {
   font-family: "Caveat", cursive;
   color: #ef476f;
   font-size: 60px;
-}
-
-.main-temp {
-  font-size: 65px;
 }
 
 header {
@@ -20,42 +32,27 @@ header {
   padding: 5px;
 }
 
+/* ==========================================================================
+   Footer styles
+========================================================================== */
 footer {
   background-color: #118ab2;
   color: #fff9eb;
   padding: 5px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Oswald", sans-serif;
+.icons {
+  display: inline-block;
+  text-align: center;
 }
 
-figure {
-  color: #073b4c;
-  font-size: 20px;
-  padding-left: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 90%;
-  margin: 20px;
-  padding: 15px;
+.info {
+  text-align: center;
 }
 
-a {
-  color: #ef476f;
-  text-decoration: none;
-}
-
-a:active {
-  color: #ffd166;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
+/* ==========================================================================
+   Main section: search, weather info and figure(quote)
+========================================================================== */
 main {
   background: linear-gradient(rgba(6, 214, 160, 0.9), rgba(17, 138, 178, 0.6)),
     url(https://i.imgur.com/tQP7D1a.jpg) no-repeat;
@@ -98,6 +95,29 @@ input {
   font-size: 20px;
 }
 
+a {
+  color: #ef476f;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffd166;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+figure {
+  color: #073b4c;
+  font-size: 20px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  margin: 20px;
+  padding: 15px;
+}
+
 .error-text {
   color: #ff0033;
   font-size: 20px;
@@ -105,13 +125,8 @@ input {
   text-align: center;
 }
 
-.icons {
-  display: inline-block;
-  text-align: center;
-}
-
-.info {
-  text-align: center;
+.main-temp {
+  font-size: 65px;
 }
 
 .search-section {
@@ -134,6 +149,9 @@ input {
   font-size: 15px;
 }
 
+/* ==========================================================================
+   Media Styles
+========================================================================== */
 @media screen and (min-width: 1024px) {
   header h1 {
     text-align: center;
@@ -162,6 +180,10 @@ input {
 
   input {
     width: 550px;
+  }
+
+  button {
+    width: 80px;
   }
 
   button,
@@ -201,6 +223,14 @@ input {
   button,
   input {
     margin-top: 110px;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  button {
+    width: 60px;
   }
 
   .info {
