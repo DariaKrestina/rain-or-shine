@@ -119,9 +119,7 @@ API docs https://openweathermap.org/api
 | PostMVP checks/fixes/tweaks                      |    H     |      3hrs      |     1hrs      |    1hrs     |
 | Total                                            |    H     |    40.5hrs     |   40.5hrs     |  40.5hrs    |
 
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+## Code Snippet  
 
 ```
 async function fetchData(units) {
