@@ -45,10 +45,10 @@ function showWeatherData(data, metadata) {
   <img src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png"/>
   <h1>${data.name} | ${data.sys.country}</h1>
   <h3>${data.weather[0].main}</h3>
-  <p class="main-temp">${data.main.temp}&#176 ${metadata.degree}</p>
-  <p class="other-temp">H: ${data.main.temp_max}&#176 ${metadata.degree} &#160 L: ${data.main.temp_min}&#176 ${metadata.degree}</p>
-  <h2>FEELS LIKE ${data.main.feels_like}&#176 ${metadata.degree}</h2>
-  <p>WIND ${data.wind.speed} ${metadata.wind}</p>
+  <p class="main-temp">${Math.round(data.main.temp)}&#176 ${metadata.degree}</p>
+  <p class="other-temp">H: ${Math.round(data.main.temp_max)}&#176 ${metadata.degree} &#160 L: ${Math.round(data.main.temp_min)}&#176 ${metadata.degree}</p>
+  <h2>FEELS LIKE ${Math.round(data.main.feels_like)}&#176 ${metadata.degree}</h2>
+  <p>WIND ${Math.round(data.wind.speed)} ${metadata.wind}</p>
   `;
   weatherInfo.insertAdjacentHTML("beforeend", weatherElements);
 }
